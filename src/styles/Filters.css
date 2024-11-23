@@ -1,0 +1,11 @@
+.filters {
+  margin: 20px 0;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.filters select {
+  padding: 5px;
+}

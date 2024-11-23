@@ -1,0 +1,15 @@
+.property-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-card h3 {
+  margin: 0 0 10px;
+}
+
+.property-card p {
+  margin: 5px 0;
+}
