@@ -1,0 +1,37 @@
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar-list a:hover {
+  background-color: #1abc9c;
+}

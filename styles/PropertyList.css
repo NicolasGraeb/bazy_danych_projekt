@@ -1,0 +1,33 @@
+.property-list {
+  margin: 20px;
+  text-align: center;
+}
+
+.property-items {
+  display: grid; /* Używamy Grid Layout zamiast Flexboxa dla lepszego zarządzania kolumnami */
+  grid-template-columns: repeat(3, 1fr); /* Trzy elementy w rzędzie */
+  gap: 25px; /* Większe odstępy między elementami */
+  justify-items: center; /* Wyśrodkowanie elementów w każdej kolumnie */
+  padding: 0;
+  list-style: none; /* Usunięcie kropek listy */
+}
+
+.property-item {
+  width: 100%; /* Element zajmuje pełną szerokość swojej kolumny */
+  max-width: 300px; /* Możesz dostosować maksymalną szerokość, aby karty wyglądały estetycznie */
+  box-sizing: border-box; /* Przeliczenie rozmiaru, włączając padding i border */
+}
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
